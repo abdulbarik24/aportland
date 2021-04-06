@@ -1,0 +1,53 @@
+2021-04-05 22:09:05.103 [main][3570] INFO  mortgage_calculator.CalculateMortgageRate - -------Test:CalculateMortgageRate-----------
+2021-04-05 22:09:05.108 [main][3575] DEBUG mortgage_calculator.CalculateMortgageRate - Open the URLhttps://www.mortgagecalculator.org/
+2021-04-05 22:09:16.345 [main][14812] DEBUG page_objects.NavigationBar - Enter home Price 300000
+2021-04-05 22:09:16.528 [main][14995] DEBUG page_objects.NavigationBar - Enter Down Payment 60000
+2021-04-05 22:09:16.672 [main][15139] DEBUG page_objects.NavigationBar - Click on the DP IN $
+2021-04-05 22:09:16.735 [main][15202] DEBUG page_objects.NavigationBar - Enter Loan Amount 240000
+2021-04-05 22:09:16.873 [main][15340] DEBUG page_objects.NavigationBar - Enter InterestRate 3
+2021-04-05 22:09:16.993 [main][15460] DEBUG page_objects.NavigationBar - Enter Loan Term in year30
+2021-04-05 22:09:17.133 [main][15600] DEBUG page_objects.NavigationBar - Select Month May
+2021-04-05 22:09:17.238 [main][15705] DEBUG page_objects.NavigationBar - Select Year 2021
+2021-04-05 22:09:17.366 [main][15833] DEBUG page_objects.NavigationBar - Enter Property Type 5000
+2021-04-05 22:09:17.506 [main][15973] DEBUG page_objects.NavigationBar - Enter PMI 0.5
+2021-04-05 22:09:17.643 [main][16110] DEBUG page_objects.NavigationBar - Enter Home Owner Insurance 1000
+2021-04-05 22:09:17.769 [main][16236] DEBUG page_objects.NavigationBar - Enter Monthly HOA 100
+2021-04-05 22:09:17.893 [main][16360] DEBUG page_objects.NavigationBar - Enter Select Loan Type FHA
+2021-04-05 22:09:17.983 [main][16450] DEBUG page_objects.NavigationBar - Enter Buy or Refinance Buy
+2021-04-05 22:09:18.077 [main][16544] DEBUG page_objects.NavigationBar - Click on the Calculate Button
+2021-04-05 22:09:19.205 [main][17672] DEBUG page_objects.NavigationBar - Validate the monthly Rate is :$1,611.85
+2021-04-05 22:09:36.275 [main][34742] INFO  api_test.SimpleGetTest - ------------API Test: Get Single Users----------------
+2021-04-05 22:09:37.444 [main][35911] DEBUG api_test.SimpleGetTest - {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2021-04-05 22:09:37.828 [main][36295] INFO  api_test.SimpleGetTest - ------------End Test: Get All Users----------------
+2021-04-05 22:09:37.829 [main][36296] INFO  api_test.SimpleGetTest - ------------API Test: Get Single Users----------------
+2021-04-05 22:09:37.971 [main][36438] DEBUG api_test.SimpleGetTest - {}
+2021-04-05 22:09:37.971 [main][36438] INFO  api_test.SimpleGetTest - ------------End Test: Get All Users----------------
+2021-04-05 22:09:37.972 [main][36439] INFO  api_test.GetTestWithQueryParameter - ------------API Test: Get All Users with Query Parameter----------------
+2021-04-05 22:09:37.972 [main][36439] INFO  api_test.GetTestWithQueryParameter - Base URI get connected
+2021-04-05 22:09:38.315 [main][36782] DEBUG api_test.GetTestWithQueryParameter - {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2021-04-05 22:09:38.317 [main][36784] DEBUG api_test.GetTestWithQueryParameter - {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2021-04-05 22:09:38.334 [main][36801] DEBUG api_test.GetTestWithQueryParameter - false
+2021-04-05 22:09:38.334 [main][36801] INFO  api_test.GetTestWithQueryParameter - ------------End Test: Get All Users----------------
+2021-04-05 22:09:38.335 [main][36802] DEBUG api_test.SimpleGetTest - ------------API Test: Delete single user ----------------
+2021-04-05 22:09:38.644 [main][37111] DEBUG api_test.SimpleGetTest - 
+2021-04-05 22:09:38.644 [main][37111] INFO  api_test.SimpleGetTest - ------------API Test: Delete single user----------------
+2021-04-05 22:09:38.645 [main][37112] INFO  api_test.SimpleGetTest - ------------API Test: Get Single Users----------------
+2021-04-05 22:09:38.727 [main][37194] DEBUG api_test.SimpleGetTest - {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2021-04-05 22:09:38.735 [main][37202] INFO  api_test.SimpleGetTest - ------------End Test: Get All Users----------------
+2021-04-05 22:09:38.735 [main][37202] INFO  api_test.SimpleGetTest - ------------API Test: Get All Users----------------
+2021-04-05 22:09:38.875 [main][37342] DEBUG api_test.SimpleGetTest - {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2021-04-05 22:09:38.885 [main][37352] INFO  api_test.SimpleGetTest - ------------End Test: Get All Users----------------
+2021-04-05 22:09:38.886 [main][37353] DEBUG api_test.SimpleGetTest - ------------API Test: Update user's single fields ----------------
+2021-04-05 22:09:38.966 [main][37433] DEBUG api_test.SimpleGetTest - User Job: IT Assistant
+2021-04-05 22:09:39.303 [main][37770] DEBUG api_test.SimpleGetTest - {"job":"IT Assistant","updatedAt":"2021-04-06T02:09:40.392Z"}
+2021-04-05 22:09:39.311 [main][37778] INFO  api_test.SimpleGetTest - ------------API Test: Update user's single fields----------------
+2021-04-05 22:09:39.311 [main][37778] DEBUG api_test.SimpleGetTest - ------------API Test: Create new user ----------------
+2021-04-05 22:09:39.355 [main][37822] DEBUG api_test.SimpleGetTest - New User Full NameMs. Patrick Collier
+2021-04-05 22:09:39.357 [main][37824] DEBUG api_test.SimpleGetTest - User Job: Legacy Sales Director
+2021-04-05 22:09:39.710 [main][38177] DEBUG api_test.SimpleGetTest - {"name":"Ms. Patrick Collier","job":"Legacy Sales Director","id":"237","createdAt":"2021-04-06T02:09:40.802Z"}
+2021-04-05 22:09:39.717 [main][38184] INFO  api_test.SimpleGetTest - ------------End Test: Get All Users----------------
+2021-04-05 22:09:39.718 [main][38185] DEBUG api_test.SimpleGetTest - ------------API Test: Update user fields ----------------
+2021-04-05 22:09:39.749 [main][38216] DEBUG api_test.SimpleGetTest - New User Full NameLarisa Reilly
+2021-04-05 22:09:39.750 [main][38217] DEBUG api_test.SimpleGetTest - User Job: Corporate Accounting Liaison
+2021-04-05 22:09:40.089 [main][38556] DEBUG api_test.SimpleGetTest - {"name":"Larisa Reilly","job":"Corporate Accounting Liaison","updatedAt":"2021-04-06T02:09:41.179Z"}
+2021-04-05 22:09:40.095 [main][38562] INFO  api_test.SimpleGetTest - ------------API Test: Update user fields----------------
